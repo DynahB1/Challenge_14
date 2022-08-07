@@ -25,6 +25,14 @@
 ### After splitting the data and training it we used the SVC classifier model to fit the data and make predictions based on the testing data. 
 ### We created a cummulative return plot to show both the Actual Returns vs the Strategy Returns. 
 
-![Actual Returns vs Strategy Rreturns](Starter_Code/Resources/Plot_1.png)
+![SVM Strategy](Starter_Code/Resources/Plot_1.png)
 
-### We can observe that the startegy returns provides a slightly better outcome than the actual returns. 
+### We can observe that the SVC strategy returns provides a better outcome than the actual returns. 
+
+---
+
+### We also tuned the baseline trading algorithm using Decision Tree Classifier to check for any improved predictions. This is the plot to show that strategy's returns vs the Actual Returns. 
+
+![Decision Tree Classifier](Starter_Code/Resources/Plot_2.png)
+
+### Unfortunately this strategy did not improve the retruns, in fact it performed very poorly. 
